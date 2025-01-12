@@ -1,0 +1,90 @@
+.SectionMain5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.SectionMain5-div1{
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: right;
+}
+.SectionMain5-div1 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.SectionMain5-div1 div{
+background-color: black;
+height: 0.2cm;
+width: 10cm;
+}
+.SectionMain5-div2{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.SectionMain5-div2::-webkit-scrollbar{
+    display: none;
+}
+.SM5-div2-btn button{
+    height: 1cm;
+    width: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 100%;
+    background: none;
+    font-size: 60px;
+}
+.SectionMain5-div2-div1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+.SectionMain5-div2-div1 img{
+    height: 200px;
+    position: absolute;
+    margin-left: 70px;
+}
+.SM5-Review-Back{
+    width: 5cm;
+    height: 8.5cm;
+}
+.SM5-Review-GComments{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    width: 12cm;
+}
+
+
+.SM5-Review-Comment{
+    padding-left: 90px;
+    padding-right: 30px;
+}
+.SM5-Review-Comment h4{
+    margin: 0;
+}
+.SM5-Review-Comment p{
+    margin: 0;
+}
+.SM5-Review-Comment a{
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+}

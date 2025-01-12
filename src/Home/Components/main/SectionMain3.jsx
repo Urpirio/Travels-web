@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import Stats_Name from './data/SM3_Stadistic';
+import Generalimg from './data/GeneralImg';
+import "./style/SectionM3.css";
+
 
 export default class SectionMain3 extends Component {
   render() {
@@ -13,14 +16,21 @@ export default class SectionMain3 extends Component {
         )
     };
 
-    const Stadisticlist =Stats_Name.map(
-        St =>{
+    const Stadisticlist = Stats_Name.map(
+        St => {
             return(
                 <Stadistic number = {St.Stats} name = {St.name}/>
             )
         }
     );
 
+    const MontainImg = Generalimg.map(
+        MT =>{
+            return(
+                <img src={MT.SM3img} alt="Montain Img" />
+            )
+        }
+    )
     return (
       <section className='SectionMain3'>
         <div className='SectionMain3-div1'>
@@ -28,7 +38,7 @@ export default class SectionMain3 extends Component {
         </div>
         <div className='SectonMain3-div2'>
             <div className='SM3-div2-div1'>
-                <img src="" alt="" />
+               {MontainImg}
             </div>
             <div className='SM3-div2-div2'>
                 <div className='SM3-dv2-div2-div1'>
@@ -37,7 +47,7 @@ export default class SectionMain3 extends Component {
                         aliquam aspernatur delectus pariatur perspiciatis!Saepe quibusdam libero dicta hic accusamus.
                          Repellendus, neque animi! Odit, eveniet dignissimos!</p>
                 </div>
-                <div className='SM3-dv2-div2-div1'>
+                <div className='SM3-dv2-div2-div2'>
                     <button>Read more</button>
                     <div>
                         {Stadisticlist}
@@ -48,4 +58,4 @@ export default class SectionMain3 extends Component {
       </section>
     )
   }
-}
+};

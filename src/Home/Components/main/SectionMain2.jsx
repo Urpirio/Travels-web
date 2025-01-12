@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TripDreams from './data/SM2_TripDreams';
-import "./style/SectonM2.css";
+import "./style/SectionM2.css";
 
 const SM2_div2_div1 = (props) =>{
     return(
@@ -57,6 +57,10 @@ const MousePhoto2 = () =>{
     document.getElementById("idPhoto3").style.opacity = "1";
     document.getElementById("idPhoto2").style.opacity = "1";
     document.getElementById("idPhoto2").style.zIndex = "1";
+  }else if(NumberPhoto == 2){
+    document.getElementById("idPhoto1").style.opacity = "1";
+    document.getElementById("idPhoto2").style.opacity = "1";
+    document.getElementById("idPhoto2").style.zIndex = "2";
   }else{
     document.getElementById("idPhoto1").style.opacity = "1";
     document.getElementById("idPhoto2").style.opacity = "1";

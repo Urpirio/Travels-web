@@ -1,0 +1,134 @@
+.SectionMain4{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.SectionMain4-div1{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    flex-flow: wrap;
+    
+}
+.SectionMain4-div1 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.SectionMain4-div1 div{
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SectionMain4-div1 div div{
+    height: 0.1cm;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+}
+.SectionMain4-div2{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.SectionMain4-div1-div1{
+    height: 8cm;
+    width: 10cm;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.SectionMain4-div1-div1 button{
+    height: 0.7cm;
+    width: 3cm;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.SectionMain4-div2 img{
+    height: 300px;
+    border-radius: 20px;
+}
+.SectionMain4-div1-div3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.SectionMain4-div1-div3 h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.SM4-div1-div4-div2{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    z-index: 2;
+}
+.SM4-div1-div4-div2::-webkit-scrollbar{
+    display: none;
+}
+.SM4-div1-div4-div2 .cards{
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: start;
+    position: relative;
+}
+.SM4-div1-div4-div2 .cards img{
+    height: 400px;
+    z-index: 1;
+}
+.SM4-div1-div4-div2 .cards div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ffffff45;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    z-index: 2;
+}
+.SM4-div1-div4-div2 .cards div a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #ffffff34;
+}
+.SM4-div1-div4-div2 .cards div a span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.SM4-div1-div4-div2 .cards div a span p{
+    font-size: 15px;
+}
+.SM4-div1-div4-div2 .cards div a p{
+    margin: 0;
+    font-size: 30px;
+}
+.SM4-div1-div4-div2 .cards div a h4{
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+

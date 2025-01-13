@@ -1,18 +1,18 @@
 const InfoNav = [
     {
-        link: "",
+        link: "#SectionMain1",
         name: "Home",
     },
     {
-        link: "",
+        link: "#SectionMain3",
         name: "about",
     },
     {
-        link: "",
+        link: "#SectionMain4",
         name: "Hot tours",
     },
     {
-        link: "",
+        link: "#SectionMain6",
         name: "Contact",
     },
 ];

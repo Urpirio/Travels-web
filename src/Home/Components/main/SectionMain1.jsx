@@ -19,9 +19,12 @@ const SectionMain1 = () =>{
     //Contenido que va dentro de los rectangulos Plan trip
     const SectionMain1_div2 = (SM1) =>{
         return(
-            <div>
+            <div className="SectionMain1-div3-divs">
+                <i class='bx bx-map' ></i>
+                    <div>
                     <h3>{SM1.place}</h3>
-                    <p>Plan a trip<box-icon type='solid' name='right-arrow-alt'></box-icon></p>
+                    <p className="SM1-P">Plan a trip<i class='bx bxs-right-arrow-alt'></i></p>
+                    </div>
             </div>
         )
     }
@@ -33,23 +36,23 @@ const SectionMain1 = () =>{
     })
 
     return(
-        <section className="SectionMain1">
+        <section className="SectionMain1" id="SectionMain1">
             <nav>
                 {Navlist}
             </nav>
             <div className="SectionMain1-div1">
                 <div className="SM1-div1-div1" >
-                <box-icon type='logo' name='instagram'></box-icon>
-                <box-icon type='logo' name='facebook-circle'></box-icon>
-                <box-icon name='twitter' type='logo' ></box-icon>
+                <i class='bx bxl-instagram-alt' id="SM1-logo-instagram" ></i>
+                <i class='bx bxl-facebook-circle' id="SM1-logo-facebook" ></i>
+                <i class='bx bxl-twitter' id="SM1-logo-twitter"></i>
                 </div>
                 <div className="SM1-div1-div2">
                     <h1>Travel</h1>
                 </div>
                 <div className="SM1-div1-div3">
-                    <button><span></span></button>
-                    <button><span></span></button>
-                    <button><span></span></button>
+                    <button id="SM1-btn1"><span></span></button>
+                    <button id="SM1-btn2"><span></span></button>
+                    <button id="SM1-btn3"><span></span></button>
                 </div>
             </div>
             <div className="SectionMain1-div2">

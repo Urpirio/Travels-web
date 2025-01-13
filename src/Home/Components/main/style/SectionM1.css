@@ -1,5 +1,6 @@
 :root{
     font-family: "Poppins", serif;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -13,6 +14,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: url("src/Home/Assets/main/Background/peak-190053_1920.jpg");
+    transition: 300ms;
 }
 .SectionMain1 nav{
     width: 80%;

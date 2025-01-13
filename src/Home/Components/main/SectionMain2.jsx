@@ -209,7 +209,7 @@ const Clickphoto3 = () => {
 export default class SectionMain2 extends Component {
   render() {
     return (
-      <section className='SectionMain2'>
+      <section className='SectionMain2' id='SectionMain2'>
         <div className='SectionMain2-div1'>
             <h1>5 reasons why you should visit new zealand</h1>
         </div>

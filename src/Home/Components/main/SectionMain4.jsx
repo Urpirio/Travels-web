@@ -17,7 +17,7 @@ export default class SectionMain4 extends Component {
 
 
     return (
-      <section className='SectionMain4'>
+      <section className='SectionMain4' id='SectionMain4'>
         <div className='SectionMain4-div1'>
             <div>
                 <div></div>

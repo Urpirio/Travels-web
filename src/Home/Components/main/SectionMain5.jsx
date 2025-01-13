@@ -71,7 +71,7 @@ export default class SectionMain5 extends Component {
     };
 
     return (
-      <section className='SectionMain5'>
+      <section className='SectionMain5' id='SectionMain5'>
         <div className='SectionMain5-div1'>
             <h1>Reviews</h1>
             <div>

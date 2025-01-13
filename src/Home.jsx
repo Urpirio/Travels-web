@@ -6,11 +6,18 @@ import SectionMain4 from "./Home/Components/main/SectionMain4";
 import SectionMain5 from "./Home/Components/main/SectionMain5";
 import SectionMain6 from "./Home/Components/main/SectionMain6";
 import SectionFooter1 from "./Home/Components/footer/SectionFooter1";
+import SectionHeader1 from "./Home/Components/Header/SectionHeader1";
 const Home = () =>{
+    const Scrolling = () =>{
+        document.getElementById("SectionHeader1").style.display = "flex";
+        document.getElementById("SM1-NAV").style.display = "none";
+        
+    };
     return(
-        <section>
+        
+        <section onScrollCapture={Scrolling} >
             <header>
-
+                <SectionHeader1/>
             </header>
             <main>
                 <SectionMain1/>

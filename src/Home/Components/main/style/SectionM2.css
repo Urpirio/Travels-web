@@ -2,13 +2,18 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    border: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+    background-image: url("src/Home/Assets/main/Background/rough-horn-2146181_1920.jpg");
+    background-size: cover;
 }
 .SectionMain2-div1 h1{
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 600;
     text-transform: uppercase;
+    text-shadow: 1px 1px gray;
+    color: white;
 }
 .SectionMain-div2{
     display: flex;
@@ -16,9 +21,10 @@
     flex-wrap: wrap;
     gap: 80px;
     width: 90%;
-    border: 3px solid blue;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    border: 2px solid #ffffff49;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .SM2-div2-div1{
     width: 8cm;
@@ -29,7 +35,10 @@
 } 
 .SM2-div2-div1 div h1{
     font-size: 30px;
+    font-weight: 400;
     text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px gray;
 }
 .SM2-div2-div1 ul{
     width: 6cm;
@@ -38,18 +47,30 @@
     gap: 10px;
     appearance: none;
     list-style-position: inside;
+    color: #282828;
 }
 .SM2-div2-div1 button{
     height: 1cm;
     width: 5cm;
-    border: 1px solid black;
-    border-radius: 20px;
+    border: 1px solid#2867fb;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px gray ;
+    background: #2484a4;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 300ms;
+}
+.SM2-div2-div1 button:hover{
+    background: none;
+    border: 3px solid #0464b7;
+    transform: translateY(-5px);
 }
 .SM2-div2-div2 {
     display: flex;
     flex-flow: column;
     width: 22cm;
-    gap: 50px;
+    gap: 10px;
     align-items: center;
 }
 .SM2-div2-div2-photos{
@@ -92,16 +113,15 @@
     transition: 300ms;
 }
 .barra-de-carga{
-    border: 1px solid black;
-    height: 0.2cm;
+    border: 2px solid white;
+    height: 0.3cm;
     width: 10cm;
     display: flex;
     align-items: center;
-    padding: 2px;
 }
 .barra-de-carga div{
-    background-color: blue;
-    height: 0.1cm;
+    background-color: #015675;
+    height: 100%;
     width: 32.5%;
     padding-left: 5px;
     padding-right: 5px;

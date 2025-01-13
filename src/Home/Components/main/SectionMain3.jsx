@@ -9,7 +9,7 @@ export default class SectionMain3 extends Component {
 
     const Stadistic = (props) =>{
         return(
-            <div>
+            <div className='SM3-Stats'>
                 <h4>{props.number}</h4>
                 <span>{props.name}</span>
             </div>
@@ -32,7 +32,7 @@ export default class SectionMain3 extends Component {
         }
     )
     return (
-      <section className='SectionMain3'>
+      <section className='SectionMain3' id='SectionMain3'>
         <div className='SectionMain3-div1'>
             <h1>About Us</h1>
         </div>

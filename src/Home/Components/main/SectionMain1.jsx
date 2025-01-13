@@ -35,9 +35,16 @@ const SectionMain1 = () =>{
         )
     })
 
+    const scrolling = () =>{
+        document.getElementById("SectionHeader1").style.display = "none";
+    document.getElementById("SectionHeader1").style.transition = "300ms";
+    document.getElementById("SM1-NAV").style.animation = "h1 1s"
+    document.getElementById("SM1-NAV").style.display = "flex";
+    };
+
     return(
-        <section className="SectionMain1" id="SectionMain1">
-            <nav>
+        <section onMouseEnter={scrolling}  className="SectionMain1" id="SectionMain1">
+            <nav id="SM1-NAV">
                 {Navlist}
             </nav>
             <div className="SectionMain1-div1">

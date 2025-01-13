@@ -30,9 +30,20 @@ export default class SectionMain3 extends Component {
                 <img src={MT.SM3img} alt="Montain Img" />
             )
         }
-    )
+    );
+    const Scrolling = () =>{
+
+   
+
+        document.getElementById("SectionHeader1").style.display = "flex";
+        document.getElementById("SectionHeader1").style.transition = "300ms";
+        document.getElementById("SectionHeader1").style.animation = "h1 1s"
+        document.getElementById("SM1-NAV").style.display = "none";
+        
+    };
+    
     return (
-      <section className='SectionMain3' id='SectionMain3'>
+      <section onPointerOver={Scrolling} className='SectionMain3' id='SectionMain3'>
         <div className='SectionMain3-div1'>
             <h1>About Us</h1>
         </div>

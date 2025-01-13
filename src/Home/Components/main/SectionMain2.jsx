@@ -203,13 +203,22 @@ const Clickphoto3 = () => {
 
 
 
+  const Scrolling = () =>{
 
+   
+
+    document.getElementById("SectionHeader1").style.display = "flex";
+    document.getElementById("SectionHeader1").style.transition = "300ms";
+    document.getElementById("SectionHeader1").style.animation = "h1 1s"
+    document.getElementById("SM1-NAV").style.display = "none";
+    
+};
 
 
 export default class SectionMain2 extends Component {
   render() {
     return (
-      <section className='SectionMain2' id='SectionMain2'>
+      <section onPointerEnter={Scrolling} className='SectionMain2' id='SectionMain2'>
         <div className='SectionMain2-div1'>
             <h1>5 reasons why you should visit new zealand</h1>
         </div>

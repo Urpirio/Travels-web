@@ -70,8 +70,20 @@ export default class SectionMain5 extends Component {
       };
     };
 
+
+    const Scrolling = () =>{
+
+   
+
+      document.getElementById("SectionHeader1").style.display = "flex";
+      document.getElementById("SectionHeader1").style.transition = "300ms";
+      document.getElementById("SectionHeader1").style.animation = "h1 1s"
+      document.getElementById("SM1-NAV").style.display = "none";
+      
+  };
+
     return (
-      <section className='SectionMain5' id='SectionMain5'>
+      <section onPointerOver={Scrolling} className='SectionMain5' id='SectionMain5'>
         <div className='SectionMain5-div1'>
             <h1>Reviews</h1>
             <div>

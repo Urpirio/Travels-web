@@ -15,9 +15,19 @@ export default class SectionMain4 extends Component {
         }
     );
 
+    const Scrolling = () =>{
+
+   
+
+      document.getElementById("SectionHeader1").style.display = "flex";
+      document.getElementById("SectionHeader1").style.transition = "300ms";
+      document.getElementById("SectionHeader1").style.animation = "h1 1s"
+      document.getElementById("SM1-NAV").style.display = "none";
+      
+  };
 
     return (
-      <section className='SectionMain4' id='SectionMain4'>
+      <section onPointerOver={Scrolling} className='SectionMain4' id='SectionMain4'>
         <div className='SectionMain4-div1'>
             <div>
                 <div></div>

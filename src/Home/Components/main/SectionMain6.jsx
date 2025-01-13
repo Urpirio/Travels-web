@@ -8,8 +8,20 @@ export default class SectionMain6 extends Component {
         e.preventDefault();
     };
 
+
+    const Scrolling = () =>{
+
+   
+
+        document.getElementById("SectionHeader1").style.display = "flex";
+        document.getElementById("SectionHeader1").style.transition = "300ms";
+        document.getElementById("SectionHeader1").style.animation = "h1 1s"
+        document.getElementById("SM1-NAV").style.display = "none";
+        
+    };
+
     return (
-      <section className='SectionMain6' id='SectionMain6'>
+      <section onPointerOver={Scrolling} className='SectionMain6' id='SectionMain6'>
         <div className='SectionMain6-div1'>
             <h1>
                 Send us a request to book a cool trip

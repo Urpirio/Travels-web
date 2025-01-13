@@ -23,5 +23,13 @@ const ReviewsData = [
         Image: "src/Home/Assets/main/Review/image (1).png",
         Dimage: "Maria Juaquina img",
     },
+    {
+        id: "CardR3",
+        name:"Maria Juaquina",
+        date: "2024-12-19",
+        Comment: "  ullamcorper. Maecenas mollis ligula non dui imperdiet, a bibendum ex accumsan. Donec rutrum varius massa, quis consequat turpis elementum in. Sed sit amet congue nisl. Cras sed lobortis magna.",
+        Image: "src/Home/Assets/main/Review/image (1).png",
+        Dimage: "Maria Juaquina img",
+    }
 ];
 export default ReviewsData;

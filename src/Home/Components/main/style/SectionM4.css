@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url("src/Home/Assets/main/Background/canyon-1740973_1920.jpg");
+    background-image: url("./../../../Assets/main/Background/canyon-1740973_1920.jpg");
     background-size: cover;
     box-shadow: 1px 1px 10px 15px #80808038;
 }

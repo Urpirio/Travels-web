@@ -5,7 +5,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border: none;
-    background-image: url("src/Home/Assets/main/Background/mountains-1645078_1920.jpg");
+    background-image: url("./../../../Assets/main/Background/mountains-1645078_1920.jpg");
     background-size: cover;
     box-shadow: 1px 1px 10px 20px #80808017;
     color: white;

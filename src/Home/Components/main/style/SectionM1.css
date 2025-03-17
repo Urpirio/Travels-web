@@ -1,3 +1,4 @@
+
 :root{
     font-family: "Poppins", serif;
     scroll-behavior: smooth;
@@ -13,7 +14,7 @@ body{
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url("src/Home/Assets/main/Background/peak-190053_1920.jpg");
+    background-image: url("./../../../Assets/main/Background/peak-190053_1920.jpg");
     transition: 300ms;
 }
 .SectionMain1 nav{

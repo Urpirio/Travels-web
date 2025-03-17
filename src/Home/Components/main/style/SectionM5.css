@@ -5,7 +5,7 @@
     border: none;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url("src/Home/Assets/main/Background/mountains-4549189_1920.jpg");
+    background-image: url("./../../../Assets/main/Background/mountains-4549189_1920.jpg");
     background-size: cover;
     box-shadow: 1px 1px 10px 10px #80808015;
 }

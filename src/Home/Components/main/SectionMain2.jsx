@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import TripDreams from './data/SM2_TripDreams';
 import "./style/SectionM2.css";
+import srcPhoto1 from './../../Assets/main/mountain-4242391_1280.jpg';
+import srcPhoto2 from './../../Assets/main/mountain-5649827_1280.jpg';
+import srcPhoto3 from './../../Assets/main/nature-6817376_1280.jpg';
 
 const SM2_div2_div1 = (props) =>{
     return(
@@ -17,9 +20,7 @@ const Triplist = TripDreams.map( TD => {
 var idPhoto1 = "idPhoto1";
 var idPhoto2 = "idPhoto2";
 var idPhoto3 = "idPhoto3";
-var srcPhoto1 = "src/Home/Assets/main/mountain-4242391_1280.jpg";
-var srcPhoto2 = "src/Home/Assets/main/mountain-5649827_1280.jpg";
-var srcPhoto3 = "src/Home/Assets/main/nature-6817376_1280.jpg";
+
 var altPhoto1 = "altPhoto1";
 var NumberPhoto;
 
